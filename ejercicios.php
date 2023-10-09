@@ -17,7 +17,7 @@
 
 /**
  * 5. Muestra los números del 1 al 10
- * Tabla
+ * 
  */
 
 ?>
