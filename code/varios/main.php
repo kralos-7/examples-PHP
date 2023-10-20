@@ -7,10 +7,8 @@
 ?>
 
 <h1> Aceptado ... :D </h1>
-
-
 <?php
-echo $_SESSION['user'];
-?>
+	echo 'Hola ', $_SESSION["usuario"], ' alias ', $_SESSION["nickname"], ' fuiste atrapado';
+?>	
 
 <a href="logout.php">Cerrar</a>
