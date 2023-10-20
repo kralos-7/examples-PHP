@@ -8,4 +8,9 @@
 
 <h1> Aceptado ... :D </h1>
 
+
+<?php
+echo $_SESSION['user'];
+?>
+
 <a href="logout.php">Cerrar</a>
