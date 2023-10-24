@@ -1,5 +1,6 @@
 <?php
-	session_start();
+	 session_start();
+	//Comprobar si exise una sesion
 	if(!isset($_SESSION["usuario"])){
 		header("Location: error.php");
 	}
